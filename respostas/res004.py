@@ -1,0 +1,5 @@
+w = int(input("Nota do primeiro bimestre: "))
+x = int(input("Nota do segundo bimeste: "))
+y = int(input("Nota do terceiro bimestre: "))
+z = int(input("Nota do quarto bimestre: "))
+print("Média:",((w+x+y+z)/4))
