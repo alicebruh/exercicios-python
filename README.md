@@ -16,73 +16,58 @@ Resolução em Python dos exercícios de Lógica de Programação e Algoritmos d
       3. [Estruturas de repetição](#estruturas-de-repetição)
       4. [Listas](#listas)
 
-## Motivação
-Estou resolvendo esta lista para disponibilizar as resoluções como material complementar do meu curso de [Lógica de Programação e Algoritmos com Python](https://www.udemy.com/course/programarcompython/?referralCode=2657DAE91BF990DE780E).
-
-## Olhe também
-"Cópia" desse repositório para as linguagens:
-- [C/C++](https://github.com/isquicha/exercicios-logica-c)
-- [Lua](https://github.com/isquicha/exercicios-logica-lua)
-
-Meus cursos de:
-- [Programação Orientada a Objetos com Python](https://www.udemy.com/course/poocompython/?referralCode=2D98A8C4A1F3B64E6837)
-- [Lógica de Programação e Algoritmos com C/C++](https://www.udemy.com/course/programarcomc/?referralCode=04DEC481E14D3EFE4B1B)
-- [Lógica de Programação e Algoritmos com Lua](https://www.udemy.com/course/programarcomlua/?referralCode=E7C03C84588AAED48068)
-
-A [licença](https://creativecommons.org/licenses/by/2.5/br/) da Wiki da Python Brasil.
-
 ## Saiba que
 Como são resoluções para um curso de Lógica de Programação (nível inicante), não foram utilizadas as famosas boas práticas de programação, pois o objetivo é justamente ensinar os fundamentos de lógica, sem adicionar muita complexidade.
 
 ## Enunciados
 ### Estruturas sequenciais
-#### [Exercicio 001](exercicios/001.py)
+#### [Exercicio 001](gabarito/001.py)
 
 Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 
-#### [Exercicio 002](exercicios/002.py)
+#### [Exercicio 002](gabarito/002.py)
 
 Faça um Programa que peça um número e então mostre a mensagem O número
 informado foi [número].
 
-#### [Exercicio 003](exercicios/003.py)
+#### [Exercicio 003](gabarito/003.py)
 
 Faça um Programa que peça dois números e imprima a soma.
 
-#### [Exercicio 004](exercicios/004.py)
+#### [Exercicio 004](gabarito/004.py)
 
 Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 
-#### [Exercicio 005](exercicios/005.py)
+#### [Exercicio 005](gabarito/005.py)
 
 Faça um Programa que converta metros para centímetros.
 
-#### [Exercicio 006](exercicios/006.py)
+#### [Exercicio 006](gabarito/006.py)
 
 Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
 
-#### [Exercicio 007](exercicios/007.py)
+#### [Exercicio 007](gabarito/007.py)
 
 Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro
 desta área para o usuário.
 
-#### [Exercicio 008](exercicios/008.py)
+#### [Exercicio 008](gabarito/008.py)
 
 Faça um Programa que pergunte quanto você ganha por hora e o número de horas
 trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
 
-#### [Exercicio 009](exercicios/009.py)
+#### [Exercicio 009](gabarito/009.py)
 
 Faça um Programa que peça a temperatura em graus Farenheit, transforme e mostre
 a temperatura em graus Celsius.
 C = (5 * (F-32) / 9).
 
-#### [Exercicio 010](exercicios/010.py)
+#### [Exercicio 010](gabarito/010.py)
 
 Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre
 em graus Farenheit.
 
-#### [Exercicio 011](exercicios/011.py)
+#### [Exercicio 011](gabarito/011.py)
 
 Faça um Programa que peça 2 números inteiros e um número real.
 Calcule e mostre:
@@ -90,13 +75,13 @@ Calcule e mostre:
     a soma do triplo do primeiro com o terceiro.
     o terceiro elevado ao cubo.
 
-#### [Exercicio 012](exercicios/012.py)
+#### [Exercicio 012](gabarito/012.py)
 
 Tendo como dados de entrada a altura de uma pessoa,
 construa um algoritmo que calcule seu peso ideal,
 usando a seguinte fórmula: (72.7*altura) - 58
 
-#### [Exercicio 013](exercicios/013.py)
+#### [Exercicio 013](gabarito/013.py)
 
 Tendo como dado de entrada a altura (h) de uma pessoa,
 construa um algoritmo que calcule seu peso ideal,
@@ -104,7 +89,7 @@ utilizando as seguintes fórmulas:
     Para homens: (72.7*h) - 58
     Para mulheres: (62.1*h) - 44.7
 
-#### [Exercicio 014](exercicios/014.py)
+#### [Exercicio 014](gabarito/014.py)
 
 João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar
 o rendimento diário de seu trabalho.
@@ -120,7 +105,7 @@ Gravar na variável excesso a quantidade de quilos além do limite
 e na variável multa o valor da multa que João deverá pagar.
 Imprima os dados do programa com as mensagens adequadas.
 
-#### [Exercicio 015](exercicios/015.py)
+#### [Exercicio 015](gabarito/015.py)
 
 Faça um Programa que pergunte quanto você ganha por hora e o número de horas
 trabalhadas no mês.
@@ -142,7 +127,7 @@ calcule os descontos e o salário líquido, conforme a tabela abaixo:
 
 Obs.: Salário Bruto - Descontos = Salário Líquido.
 
-#### [Exercicio 016](exercicios/016.py)
+#### [Exercicio 016](gabarito/016.py)
 
 Faça um programa para uma loja de tintas.
 O programa deverá pedir o tamanho em metros quadrados da área a ser pintada.
@@ -153,7 +138,7 @@ quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00.
 Informe ao usuário a quantidades de latas de tinta
 a serem compradas e o preço total.
 
-#### [Exercicio 017](exercicios/017.py)
+#### [Exercicio 017](gabarito/017.py)
 
 Faça um Programa para uma loja de tintas.
 
@@ -172,32 +157,32 @@ e os respectivos preços em 3 situações:
         Acrescente 10% de folga e sempre arredonde os valores para cima,
         isto é, considere latas cheias.
 
-#### [Exercicio 018](exercicios/018.py)
+#### [Exercicio 018](gabarito/018.py)
 
 Faça um programa que peça o tamanho de um arquivo para download (em MB) e a
 velocidade de um link de Internet (em Mbps), calcule e informe o tempo
 aproximado de download do arquivo usando este link (em minutos).
 
 ### Estruturas de decisão
-#### [Exercicio 019](exercicios/019.py)
+#### [Exercicio 019](gabarito/019.py)
 
 Faça um Programa que peça dois números e imprima o maior deles.
 
-#### [Exercicio 020](exercicios/020.py)
+#### [Exercicio 020](gabarito/020.py)
 
 Faça um Programa que peça um valor e mostre na tela se o valor é
 positivo ou negativo.
 
-#### [Exercicio 021](exercicios/021.py)
+#### [Exercicio 021](gabarito/021.py)
 
 Faça um Programa que verifique se uma letra digitada é "F" ou "M".
 Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
 
-#### [Exercicio 022](exercicios/022.py)
+#### [Exercicio 022](gabarito/022.py)
 
 Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
 
-#### [Exercicio 023](exercicios/023.py)
+#### [Exercicio 023](gabarito/023.py)
 
 Faça um programa para a leitura de duas notas parciais de um aluno.
 O programa deve calcular a média alcançada por aluno e apresentar:
@@ -205,24 +190,24 @@ O programa deve calcular a média alcançada por aluno e apresentar:
     A mensagem "Reprovado", se a média for menor do que sete;
     A mensagem "Aprovado com Distinção", se a média for igual a dez.
 
-#### [Exercicio 024](exercicios/024.py)
+#### [Exercicio 024](gabarito/024.py)
 
 Faça um Programa que leia três números e mostre o maior deles.
 
-#### [Exercicio 025](exercicios/025.py)
+#### [Exercicio 025](gabarito/025.py)
 
 Faça um Programa que leia três números e mostre o maior e o menor deles.
 
-#### [Exercicio 026](exercicios/026.py)
+#### [Exercicio 026](gabarito/026.py)
 
 Faça um programa que pergunte o preço de três produtos e informe qual produto
 você deve comprar, sabendo que a decisão é sempre pelo mais barato.
 
-#### [Exercicio 027](exercicios/027.py)
+#### [Exercicio 027](gabarito/027.py)
 
 Faça um Programa que leia três números e mostre-os em ordem decrescente.
 
-#### [Exercicio 028](exercicios/028.py)
+#### [Exercicio 028](gabarito/028.py)
 
 Faça um Programa que pergunte em que turno você estuda.
 Peça para digitar M-matutino ou V-Vespertino ou N- Noturno.
@@ -230,7 +215,7 @@ Peça para digitar M-matutino ou V-Vespertino ou N- Noturno.
 Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou
 "Valor Inválido!", conforme o caso.
 
-#### [Exercicio 029](exercicios/029.py)
+#### [Exercicio 029](gabarito/029.py)
 
 As Organizações Tabajara resolveram dar um aumento de salário aos seus
 colaboradores e lhe contrataram para desenvolver o programa que calculará os
@@ -250,7 +235,7 @@ seguinte critério, baseado no salário atual:
         o valor do aumento;
         o novo salário, após o aumento.
 
-#### [Exercicio 030](exercicios/030.py)
+#### [Exercicio 030](gabarito/030.py)
 
 Faça um programa para o cálculo de uma folha de pagamento, sabendo que os
 descontos são do Imposto de Renda, que depende do salário bruto
@@ -277,13 +262,13 @@ No exemplo o valor da hora é 5 e a quantidade de hora é 220.
         Total de descontos              : R$  165,00
         Salário Liquido                 : R$  935,00
 
-#### [Exercicio 031](exercicios/031.py)
+#### [Exercicio 031](gabarito/031.py)
 
 Faça um Programa que leia um número e exiba o dia correspondente da semana.
 (1-Domingo, 2- Segunda, etc.),
 se digitar outro valor deve aparecer valor inválido.
 
-#### [Exercicio 032](exercicios/032.py)
+#### [Exercicio 032](gabarito/032.py)
 
 Faça um programa que lê as duas notas parciais obtidas por um aluno numa
 disciplina ao longo de um semestre, e calcule a sua média.
@@ -300,7 +285,7 @@ O algoritmo deve mostrar na tela as notas, a média,
 o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C
 ou “REPROVADO” se o conceito for D ou E.
 
-#### [Exercicio 033](exercicios/033.py)
+#### [Exercicio 033](gabarito/033.py)
 
 Faça um Programa que peça os 3 lados de um triângulo.
 O programa deverá informar se os valores podem ser um triângulo.
@@ -314,7 +299,7 @@ Dicas:
     Triângulo Isósceles: quaisquer dois lados iguais;
     Triângulo Escaleno: três lados diferentes;
 
-#### [Exercicio 034](exercicios/034.py)
+#### [Exercicio 034](gabarito/034.py)
 
 Faça um programa que calcule as raízes de uma equação do segundo grau,
 na forma ax² + bx + c.
@@ -332,17 +317,17 @@ informando ao usuário nas seguintes situações:
     Se o delta for positivo, a equação possui duas raiz reais;
         informe-as ao usuário;
 
-#### [Exercicio 035](exercicios/035.py)
+#### [Exercicio 035](gabarito/035.py)
 
 Faça um Programa que peça um número correspondente a um determinado ano e em
 seguida informe se este ano é ou não bissexto.
 
-#### [Exercicio 036](exercicios/036.py)
+#### [Exercicio 036](gabarito/036.py)
 
 Faça um Programa que peça uma data no formato dd/mm/aaaa e determine se a mesma
 é uma data válida.
 
-#### [Exercicio 037](exercicios/037.py)
+#### [Exercicio 037](gabarito/037.py)
 
 Faça um Programa que leia um número inteiro maior que 0 e menor que 1000 e
 imprima a quantidade de centenas, dezenas e unidades do mesmo.
@@ -356,7 +341,7 @@ Exemplo:
 Testar com:
 326, 300, 100, 320, 310,305, 301, 101, 311, 111, 25, 20, 10, 21, 11, 1, 7 e 16
 
-#### [Exercicio 038](exercicios/038.py)
+#### [Exercicio 038](gabarito/038.py)
 
 Faça um Programa para um caixa eletrônico.
 
@@ -377,17 +362,17 @@ Exemplo 2:
 Para sacar a quantia de 399 reais, o programa fornece três notas de 100,
 uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
 
-#### [Exercicio 039](exercicios/039.py)
+#### [Exercicio 039](gabarito/039.py)
 
 Faça um Programa que peça um número inteiro e determine se ele é par ou impar.
 Dica: utilize o operador módulo (resto da divisão).
 
-#### [Exercicio 040](exercicios/040.py)
+#### [Exercicio 040](gabarito/040.py)
 
 Faça um Programa que peça um número e informe se o número é inteiro ou decimal.
 Dica: utilize uma função de arredondamento.
 
-#### [Exercicio 041](exercicios/041.py)
+#### [Exercicio 041](gabarito/041.py)
 
 Faça um Programa que leia 2 números e em seguida pergunte ao usuário qual
 operação ele deseja realizar.
@@ -398,7 +383,7 @@ frase que diga se o número é:
     positivo ou negativo;
     inteiro ou decimal.
 
-#### [Exercicio 042](exercicios/042.py)
+#### [Exercicio 042](gabarito/042.py)
 
 Faça um programa que faça 5 perguntas para uma pessoa sobre um crime.
 As perguntas são:
@@ -415,7 +400,7 @@ Se a pessoa responder positivamente a 2 questões ela deve ser classificada
 como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino".
 Caso contrário, ele será classificado como "Inocente".
 
-#### [Exercicio 043](exercicios/043.py)
+#### [Exercicio 043](gabarito/043.py)
 
 Um posto está vendendo combustíveis com a seguinte tabela de descontos:
     Álcool:
@@ -430,7 +415,7 @@ o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina),
 calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do
 litro da gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90.
 
-#### [Exercicio 044](exercicios/044.py)
+#### [Exercicio 044](gabarito/044.py)
 
 Uma fruteira está vendendo frutas com a seguinte tabela de preços:
 
@@ -444,7 +429,7 @@ ultrapassar R$ 25,00, receberá ainda um desconto de 10% sobre este total.
 Escreva um algoritmo para ler a quantidade (em Kg) de morangos e a quantidade
 (em Kg) de maças adquiridas e escreva o valor a ser pago pelo cliente.
 
-#### [Exercicio 045](exercicios/045.py)
+#### [Exercicio 045](gabarito/045.py)
 
 O Hipermercado Tabajara está com uma promoção de carnes que é imperdível.
 Confira:
@@ -471,19 +456,19 @@ usuário e gere um cupom fiscal, contendo as informações da compra:
     valor a pagar.
 
 ### Estruturas de repetição
-#### [Exercicio 046](exercicios/046.py)
+#### [Exercicio 046](gabarito/046.py)
 
 Faça um programa que peça uma nota, entre zero e dez.
 Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o
 usuário informe um valor válido.
 
-#### [Exercicio 047](exercicios/047.py)
+#### [Exercicio 047](gabarito/047.py)
 
 Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha
 igual ao nome do usuário, mostrando uma mensagem de erro e voltando a
 pedir as informações.
 
-#### [Exercicio 048](exercicios/048.py)
+#### [Exercicio 048](gabarito/048.py)
 
 Faça um programa que leia e valide as seguintes informações:
     Nome: maior que 3 caracteres;
@@ -492,7 +477,7 @@ Faça um programa que leia e valide as seguintes informações:
     Sexo: 'f' ou 'm';
     Estado Civil: 's', 'c', 'v', 'd';
 
-#### [Exercicio 049](exercicios/049.py)
+#### [Exercicio 049](gabarito/049.py)
 
 Supondo que a população de um país A seja da ordem de 80000 habitantes com uma
 taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes
@@ -502,38 +487,38 @@ Faça um programa que calcule e escreva o número de anos necessários para que 
 população do país A ultrapasse ou iguale a população do país B, mantidas as
 taxas de crescimento.
 
-#### [Exercicio 050](exercicios/050.py)
+#### [Exercicio 050](gabarito/050.py)
 
 Altere o programa anterior permitindo ao usuário informar as populações e as
 taxas de crescimento iniciais. Valide a entrada e permita repetir a operação.
 
-#### [Exercicio 051](exercicios/051.py)
+#### [Exercicio 051](gabarito/051.py)
 
 Faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro.
 Depois modifique o programa para que ele mostre os números um ao lado do outro.
 
-#### [Exercicio 052](exercicios/052.py)
+#### [Exercicio 052](gabarito/052.py)
 
 Faça um programa que leia 5 números e informe o maior número.
 
-#### [Exercicio 053](exercicios/053.py)
+#### [Exercicio 053](gabarito/053.py)
 
 Faça um programa que leia 5 números e informe a soma e a média dos números.
 
-#### [Exercicio 054](exercicios/054.py)
+#### [Exercicio 054](gabarito/054.py)
 
 Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
 
-#### [Exercicio 055](exercicios/055.py)
+#### [Exercicio 055](gabarito/055.py)
 
 Faça um programa que receba dois números inteiros e gere os números inteiros
 que estão no intervalo compreendido por eles.
 
-#### [Exercicio 056](exercicios/056.py)
+#### [Exercicio 056](gabarito/056.py)
 
 Altere o programa anterior para mostrar no final a soma dos números.
 
-#### [Exercicio 057](exercicios/057.py)
+#### [Exercicio 057](gabarito/057.py)
 
 Desenvolva um gerador de tabuada, capaz de gerar a tabuada de qualquer número
 inteiro entre 1 a 10.
@@ -545,54 +530,54 @@ A saída deve ser conforme o exemplo abaixo:
     ...
     5 X 10 = 50
 
-#### [Exercicio 058](exercicios/058.py)
+#### [Exercicio 058](gabarito/058.py)
 
 Faça um programa que peça dois números, base e expoente,
 calcule e mostre o primeiro número elevado ao segundo número.
 Não utilize a função de potência da linguagem.
 
-#### [Exercicio 059](exercicios/059.py)
+#### [Exercicio 059](gabarito/059.py)
 
 Faça um programa que peça 10 números inteiros, calcule e mostre a quantidade de
 números pares e a quantidade de números impares.
 
-#### [Exercicio 060](exercicios/060.py)
+#### [Exercicio 060](gabarito/060.py)
 
 A série de Fibonacci é formada pela seqüência 1,1,2,3,5,8,13,21,34,55,...
 Faça um programa capaz de gerar a série até o n−ésimo termo.
 
-#### [Exercicio 061](exercicios/061.py)
+#### [Exercicio 061](gabarito/061.py)
 
 Faça um programa que calcule o fatorial de um número inteiro fornecido pelo
 usuário. Ex.: 5!=5.4.3.2.1=120
 
-#### [Exercicio 062](exercicios/062.py)
+#### [Exercicio 062](gabarito/062.py)
 
 Faça um programa que, dado um conjunto de N números, determine o menor valor,
 o maior valor e a soma dos valores.
 
-#### [Exercicio 063](exercicios/063.py)
+#### [Exercicio 063](gabarito/063.py)
 
 Altere o programa anterior para que ele aceite apenas números entre 0 e 1000.
 
-#### [Exercicio 064](exercicios/064.py)
+#### [Exercicio 064](gabarito/064.py)
 
 Altere o programa de cálculo do fatorial, permitindo ao usuário calcular o
 fatorial várias vezes e limitando o fatorial a números inteiros positivos e
 menores que 16.
 
-#### [Exercicio 065](exercicios/065.py)
+#### [Exercicio 065](gabarito/065.py)
 
 Faça um programa que peça um número inteiro e determine se ele é ou não um
 número primo. Um número primo é aquele que é divisível somente por ele mesmo
 e por 1.
 
-#### [Exercicio 066](exercicios/066.py)
+#### [Exercicio 066](gabarito/066.py)
 
 Altere o programa de cálculo dos números primos, informando, caso o número não
 seja primo, por quais número ele é divisível.
 
-#### [Exercicio 067](exercicios/067.py)
+#### [Exercicio 067](gabarito/067.py)
 
 Faça um programa que mostre todos os primos entre 1 e N sendo N um número
 inteiro fornecido pelo usuário.
@@ -603,38 +588,38 @@ encontrar os números primos.
 Serão avaliados o funcionamento, o estilo e o número de testes (divisões)
 executados.
 
-#### [Exercicio 068](exercicios/068.py)
+#### [Exercicio 068](gabarito/068.py)
 
 Faça um programa que calcule o mostre a média aritmética de N notas.
 
-#### [Exercicio 069](exercicios/069.py)
+#### [Exercicio 069](gabarito/069.py)
 
 Faça um programa que peça para n pessoas a sua idade, ao final o programa
 deverá verificar se a média de idade da turma varia entre 0 e 25,26 e 60 e
 maior que 60; e então, dizer se a turma é jovem, adulta ou idosa, conforme a
 média calculada.
 
-#### [Exercicio 070](exercicios/070.py)
+#### [Exercicio 070](gabarito/070.py)
 
 Numa eleição existem três candidatos.
 Faça um programa que peça o número total de eleitores.
 Peça para cada eleitor votar e ao final mostrar o número de votos
 de cada candidato.
 
-#### [Exercicio 071](exercicios/071.py)
+#### [Exercicio 071](gabarito/071.py)
 
 Faça um programa que calcule o número médio de alunos por turma.
 Para isto, peça a quantidade de turmas e a quantidade de
 alunos para cada turma.
 As turmas não podem ter mais de 40 alunos.
 
-#### [Exercicio 072](exercicios/072.py)
+#### [Exercicio 072](gabarito/072.py)
 
 Faça um programa que calcule o valor total investido por um colecionador em sua
 coleção de CDs e o valor médio gasto em cada um deles.
 O usuário deverá informar a quantidade de CDs e o valor para em cada um.
 
-#### [Exercicio 073](exercicios/073.py)
+#### [Exercicio 073](gabarito/073.py)
 
 O Sr. Manoel Joaquim possui uma grande loja de artigos de R$ 1,99,
 com cerca de 10 caixas.
@@ -656,7 +641,7 @@ conforme o exemplo abaixo:
     ...
     50 - R$ 99.50
 
-#### [Exercicio 074](exercicios/074.py)
+#### [Exercicio 074](gabarito/074.py)
 
 O Sr. Manoel Joaquim acaba de adquirir uma panificadora e pretende implantar a
 metodologia da tabelinha, que já é um sucesso na sua loja de 1,99.
@@ -672,7 +657,7 @@ conforme o exemplo abaixo:
     ...
     50 - R$ 9.00
 
-#### [Exercicio 075](exercicios/075.py)
+#### [Exercicio 075](gabarito/075.py)
 
 O Sr. Manoel Joaquim expandiu seus negócios para além dos negócios de 1,99 e
 agora possui uma loja de conveniências.
@@ -699,14 +684,14 @@ A saída deve ser conforme o exemplo abaixo:
     Dinheiro: R$ 20.00
     Troco: R$ 11.00
 
-#### [Exercicio 076](exercicios/076.py)
+#### [Exercicio 076](gabarito/076.py)
 
 O Departamento Estadual de Meteorologia lhe contratou para desenvolver um
 programa que leia as um conjunto indeterminado de temperaturas,
 e informe ao final a menor e a maior temperaturas informadas,
 bem como a média das temperaturas.
 
-#### [Exercicio 077](exercicios/077.py)
+#### [Exercicio 077](gabarito/077.py)
 
 Desenvolva um programa que faça a tabuada de um número qualquer inteiro que
 será digitado pelo usuário, mas a tabuada não deve necessariamente iniciar em 1
@@ -725,7 +710,7 @@ usuário, conforme exemplo abaixo:
 
 Obs: Você deve verificar se o usuário não digitou o final menor que o inicial.
 
-#### [Exercicio 078](exercicios/078.py)
+#### [Exercicio 078](gabarito/078.py)
 
 Uma academia deseja fazer um senso entre seus clientes para descobrir o mais
 alto, o mais baixo, a mais gordo e o mais magro, para isto você deve fazer um
@@ -739,7 +724,7 @@ Ao encerrar o programa também deve ser informados os códigos e valores do
 clente mais alto, do mais baixo, do mais gordo e do mais magro, além da média
 das alturas e dos pesos dos clientes.
 
-#### [Exercicio 079](exercicios/079.py)
+#### [Exercicio 079](gabarito/079.py)
 
 Um funcionário de uma empresa recebe aumento salarial anualmente.
 
@@ -753,7 +738,7 @@ Faça um programa que determine o salário atual desse funcionário.
 Após concluir isto, altere o programa permitindo que o usuário digite o salário
 inicial do funcionário.
 
-#### [Exercicio 080](exercicios/080.py)
+#### [Exercicio 080](gabarito/080.py)
 
 Faça um programa que leia dez conjuntos de dois valores,
 o primeiro representando o número do aluno e o segundo representando
@@ -764,7 +749,7 @@ Encontre o aluno mais alto e o mais baixo.
 Mostre o número do aluno mais alto e o número do aluno mais baixo,
 junto com suas alturas.
 
-#### [Exercicio 081](exercicios/081.py)
+#### [Exercicio 081](gabarito/081.py)
 
 Foi feita uma estatística em cinco cidades brasileiras para coletar dados sobre
 acidentes de trânsito.
@@ -781,7 +766,7 @@ Deseja-se saber:
     Qual a média de acidentes de trânsito nas cidades com menos de
         2.000 veículos de passeio.
 
-#### [Exercicio 082](exercicios/082.py)
+#### [Exercicio 082](gabarito/082.py)
 
 Faça um programa que receba o valor de uma dívida e mostre uma tabela com os
 seguintes dados: valor da dívida, valor dos juros, quantidade de parcelas e
@@ -801,7 +786,7 @@ Exemplo de saída do programa:
     R$ 1.100,00     100             3                       R$    366,00
     R$ 1.150,00     150             6                       R$    191,67
 
-#### [Exercicio 083](exercicios/083.py)
+#### [Exercicio 083](gabarito/083.py)
 
 Faça um programa que leia uma quantidade indeterminada de números positivos e
 conte quantos deles estão nos seguintes intervalos:
@@ -809,7 +794,7 @@ conte quantos deles estão nos seguintes intervalos:
 
 A entrada de dados deverá terminar quando for lido um número negativo.
 
-#### [Exercicio 084](exercicios/084.py)
+#### [Exercicio 084](gabarito/084.py)
 
 O cardápio de uma lanchonete é o seguinte:
     Especificação   Código  Preço
@@ -827,7 +812,7 @@ geral do pedido.
 
 Considere que o cliente deve informar quando o pedido deve ser encerrado.
 
-#### [Exercicio 085](exercicios/085.py)
+#### [Exercicio 085](gabarito/085.py)
 
 Em uma eleição presidencial existem quatro candidatos.
 Os votos são informados por meio de código.
@@ -846,7 +831,7 @@ Faça um programa que calcule e mostre:
 
 Para finalizar o conjunto de votos tem-se o valor zero.
 
-#### [Exercicio 086](exercicios/086.py)
+#### [Exercicio 086](gabarito/086.py)
 
 Desenvolver um programa para verificar a nota do aluno em uma prova com 10
 questões, o programa deve perguntar ao aluno a resposta de cada questão e ao
@@ -875,7 +860,7 @@ Após todos os alunos terem respondido informar:
 Após concluir isto você poderia incrementar o programa permitindo que o
 professor digite o gabarito da prova antes dos alunos usarem o programa.
 
-#### [Exercicio 087](exercicios/087.py)
+#### [Exercicio 087](gabarito/087.py)
 
 Em uma competição de salto em distância cada atleta tem direito a cinco saltos.
 No final da série de saltos de cada atleta, o melhor e o pior resultados são
@@ -906,7 +891,7 @@ A saída do programa deve ser conforme o exemplo abaixo:
     Resultado final:
     Rodrigo Curvêllo: 5.9 m
 
-#### [Exercicio 088](exercicios/088.py)
+#### [Exercicio 088](gabarito/088.py)
 
 Em uma competição de ginástica, cada atleta recebe votos de sete jurados.
 A melhor e a pior nota são eliminadas.
@@ -934,7 +919,7 @@ Um exemplo de saída do programa deve ser conforme o exemplo abaixo:
     Pior nota: 7.5
     Média: 9,04
 
-#### [Exercicio 089](exercicios/089.py)
+#### [Exercicio 089](gabarito/089.py)
 
 Faça um programa que peça um numero inteiro positivo e em seguida mostre este
 numero invertido.
@@ -942,82 +927,82 @@ Exemplo:
   12376489
   => 98467321
 
-#### [Exercicio 090](exercicios/090.py)
+#### [Exercicio 090](gabarito/090.py)
 
 Faça um programa que mostre os n termos da Série a seguir:
   S = 1/1 + 2/3 + 3/5 + 4/7 + 5/9 + ... + n/m.
 Imprima no final a soma da série.
 
-#### [Exercicio 091](exercicios/091.py)
+#### [Exercicio 091](gabarito/091.py)
 
 Sendo H= 1 + 1/2 + 1/3 + 1/4 + ... + 1/N,
 Faça um programa que calcule o valor de H com N termos.
 
 ### Listas
 
-#### [Exercicio 092](exercicios/092.py)
+#### [Exercicio 092](gabarito/092.py)
 
 Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
 
-#### [Exercicio 093](exercicios/093.py)
+#### [Exercicio 093](gabarito/093.py)
 
 Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem
 inversa.
 
-#### [Exercicio 094](exercicios/094.py)
+#### [Exercicio 094](gabarito/094.py)
 
 Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
 
-#### [Exercicio 095](exercicios/095.py)
+#### [Exercicio 095](gabarito/095.py)
 
 Faça um Programa que leia um vetor de 10 caracteres, e diga quantas consoantes
 foram lidas. Imprima as consoantes.
 
-#### [Exercicio 096](exercicios/096.py)
+#### [Exercicio 096](gabarito/096.py)
 
 Faça um Programa que leia 20 números inteiros e armazene-os num vetor.
 Armazene os números pares no vetor PAR e os números IMPARES no vetor impar.
 Imprima os três vetores.
 
-#### [Exercicio 097](exercicios/097.py)
+#### [Exercicio 097](gabarito/097.py)
 
 Faça um Programa que peça as quatro notas de 10 alunos, calcule e armazene num
 vetor a média de cada aluno, imprima o número de alunos com média maior ou
 igual a 7.0.
 
-#### [Exercicio 098](exercicios/098.py)
+#### [Exercicio 098](gabarito/098.py)
 
 Faça um Programa que leia um vetor de 5 números inteiros, mostre a soma, a
 multiplicação e os números.
 
-#### [Exercicio 099](exercicios/099.py)
+#### [Exercicio 099](gabarito/099.py)
 
 Faça um Programa que peça a idade e a altura de 5 pessoas, armazene cada
 informação no seu respectivo vetor. Imprima a idade e a altura na ordem
 inversa a ordem lida.
 
-#### [Exercicio 100](exercicios/100.py)
+#### [Exercicio 100](gabarito/100.py)
 
 Faça um Programa que leia um vetor A com 10 números inteiros, calcule e mostre
 a soma dos quadrados dos elementos do vetor.
 
-#### [Exercicio 101](exercicios/101.py)
+#### [Exercicio 101](gabarito/101.py)
 
 Faça um Programa que leia dois vetores com 10 elementos cada.
 Gere um terceiro vetor de 20 elementos, cujos valores deverão ser compostos
 pelos elementos intercalados dos dois outros vetores.
 
-#### [Exercicio 102](exercicios/102.py)
+#### [Exercicio 102](gabarito/102.py)
 
 Altere o programa anterior, intercalando 3 vetores de 10 elementos cada.
 
-#### [Exercicio 103](exercicios/103.py)
+#### [Exercicio 103](gabarito/103.py)
 
 Foram anotadas as idades e alturas de 30 alunos.
 Faça um Programa que determine quantos alunos com mais de 13 anos possuem
 altura inferior à média de altura desses alunos.
 
-#### [Exercicio 104](exercicios/104.py)
+#### [Exercicio 104](gabarito/104.py)
 
 Faça um programa que receba a temperatura média de cada mês do ano e
 armazene-as em uma lista.
@@ -1025,7 +1010,7 @@ Após isto, calcule a média anual das temperaturas e mostre todas as
 temperaturas acima da média anual, e em que mês elas ocorreram
 (mostrar o mês por extenso: 1 – Janeiro, 2 – Fevereiro, . . . ).
 
-#### [Exercicio 105](exercicios/105.py)
+#### [Exercicio 105](gabarito/105.py)
 
 Faça um programa que leia um número indeterminado de valores, correspondentes a
 notas, encerrando a entrada de dados quando for informado um valor igual a -1
@@ -1043,7 +1028,7 @@ Após esta entrada de dados, faça:
     Calcule e mostre a quantidade de valores abaixo de sete;
     Encerre o programa com uma mensagem;
 
-#### [Exercicio 106](exercicios/106.py)
+#### [Exercicio 106](gabarito/106.py)
 
 Utilize uma lista para resolver o problema a seguir.
 Uma empresa paga seus vendedores com base em comissões.
@@ -1066,7 +1051,7 @@ Desafio:
     Crie ma fórmula para chegar na posição da lista a partir do salário,
     sem fazer vários ifs aninhados.
 
-#### [Exercicio 107](exercicios/107.py)
+#### [Exercicio 107](gabarito/107.py)
 
 Uma grande emissora de televisão quer fazer uma enquete entre os seus
 telespectadores para saber qual o melhor jogador após cada jogo.
@@ -1119,7 +1104,7 @@ Jogador Votos           %
 O melhor jogador foi o número 9, com 4 votos,
 correspondendo a 50% do total de votos.
 
-#### [Exercicio 108](exercicios/108.py)
+#### [Exercicio 108](gabarito/108.py)
 
 Uma empresa de pesquisas precisa tabular os resultados da seguinte enquete
 feita a um grande quantidade de organizações:
@@ -1158,7 +1143,7 @@ Total                    8800
 O Sistema Operacional mais votado foi o Unix, com 3500 votos,
 correspondendo a 40% dos votos.
 
-#### [Exercicio 109](exercicios/109.py)
+#### [Exercicio 109](gabarito/109.py)
 
 As Organizações Tabajara resolveram dar um abono aos seus colaboradores em
 reconhecimento ao bom resultado alcançado durante o ano que passou.
